@@ -30,7 +30,7 @@ bash buildLM.sh <LMtext> <order> <Vocabulary> <outputLM>
 bash buildLM.sh data/trainLM.txt 4 data/vocab.txt outputLM/4-gram.arpa
 ```
 
-To test your pre-trained n-gram LM using SRI, , use the following command line:
+To test your pre-trained n-gram LM using SRI, use the following command line:
 ```bash
 bash testLM.sh <inputLM> <order> <inputText>
 ```
